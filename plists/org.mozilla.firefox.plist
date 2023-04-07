@@ -1,0 +1,19 @@
+<!-- Custom Firefox Plists for Web Filtering -->
+<!-- Created on 3/30/2023 by Jehu Campos -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnterprisePoliciesEnabled</key>
+	<true/>
+	<key>WebsiteFilter</key>
+	<dict>
+		<key>Block</key>
+		<array>
+			<!-- To completely bock a domain, create two entries per site as formatted below -->
+			<string>*://google.com/*</string>
+			<string>*://www.google.com/*</string>
+		</array>
+	</dict>
+</dict>
+</plist>
