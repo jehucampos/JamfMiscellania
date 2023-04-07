@@ -1,0 +1,13 @@
+<!-- Custom Google Chrome plist for Web Filtering -->
+<!-- Created by Jehu Campos on 3/30/2023 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>URLBlocklist</key>
+        <array>
+            <!-- List websites to block below -->
+            <string>google.com</string>
+        </array>
+</dict>
+</plist>
